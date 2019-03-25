@@ -1,0 +1,192 @@
+body{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background: #1C1C1C;
+    -webkit-clip-path: polygon(16% 0, 100% 0, 100% 100%, 90% 84%, 55% 83%, 74% 71%, 31% 60%, 55% 49%, 29% 34%, 49% 20%);
+clip-path: polygon(16% 0, 100% 0, 100% 100%, 90% 84%, 55% 83%, 74% 71%, 31% 60%, 55% 49%, 29% 34%, 49% 20%);
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+
+  
+  .sidenav a {
+    padding: 20px 8px 8px 140px;
+    text-decoration: none;
+    font-size: 18px;
+    color:white;
+    display: block;
+    
+  }
+
+  
+  a.link:hover {
+    color: #8C43FF;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  
+
+a.closebtn{
+      color: white;
+      padding-top: 25px;
+      padding-left: 0;
+      margin-left: 0;
+      position: absolute;
+      top: 0;
+      right: 30px;
+      font-size: 28px;
+      text-decoration: none !important;
+  }
+
+  a.closebtn:hover{
+    color: #8C43FF;
+    transition: 0.1s;
+  }
+
+ 
+  
+
+  .logo{
+    height: 50px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+  }
+
+  
+  .hamburger {
+    font-size:30px;
+    cursor:pointer;
+    float: right;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    cursor: pointer;
+    color: #8C43FF;
+    
+  }
+
+
+
+.intro{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.intro h1{
+    font-size: 30px;
+    margin: 10px auto;
+    width: 80%
+
+}
+
+.intro p {
+  margin: 0 auto;
+  font-weight: 200;
+}
+
+.intro .profile-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+  @media screen and (min-width: 700px) {
+    .logo{
+     height: 50px;
+    }
+
+    .grid-container{
+      display: grid;
+      grid-template-rows: 50px 50px 50px 50px;
+      grid-row-gap: 20px;
+      padding-top: 100px;
+    }
+    
+    .grid-item{
+      text-align: center;
+      position: relative;
+      left: 60px;
+      padding: 0;    
+      align-content: space-around;
+    }
+
+    .intro h1{
+      text-align: center;
+      display: inline-block;
+      font-size: 50px;
+      width: 40%;
+      margin: 20px auto;
+        }
+
+        .intro{
+          margin-top: 100px;
+          text-align: center;
+        }
+
+        .intro p {
+          width: 40%;
+          margin: 0 auto;
+        }
+
+        .intro .profile-img{
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+          width: 20%;
+          margin-top: 80px;
+      }
+
+      .hamburger {
+        font-size:40px;
+        cursor:pointer;
+        float: right;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+        cursor: pointer;
+        padding-right: 40px;
+        
+      }
+
+
+a.closebtn{
+  color: white;
+  padding-top: 30px;
+  padding-left: 0;
+  margin-left: 0;
+  position: absolute;
+  top: 0;
+  right: 60px;
+  font-size: 40px !important;
+  text-decoration: none !important;
+}
+
+.sidenav a {
+  padding: 20px 8px 8px 140px;
+  text-decoration: none;
+  font-size: 24px;
+  color:white;
+  display: block;
+  
+}
+
+
+  }
